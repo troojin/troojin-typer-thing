@@ -241,7 +241,7 @@ def loop():
                 time.sleep(random.uniform(0.05, 0.12))
                 if typed:
                     pyautogui.write(typed, interval=random.uniform(0.01, 0.04))
-                    pyautogui.press("enter") -- handles everything
+                    pyautogui.press("enter") # handles everything
 
             prefix = ""
             status = "Waiting for letters..."
