@@ -31,7 +31,3 @@ Built for **fun, practice, and content creation**.
 
 You still control when letters are entered — this just handles the typing.
 
----
-
-## 📂 Files
-
