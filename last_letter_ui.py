@@ -5,15 +5,10 @@ import keyboard
 import pyautogui
 import tkinter as tk
 
-# =========================
-# LOAD WORDS
-# =========================
 with open("words.txt", "r", encoding="utf-8") as f:
     WORDS = [w.strip().lower() for w in f if w.strip().isalpha()]
 
-# =========================
-# STATE
-# =========================
+# yes!
 prefix = ""
 last_word = "-"
 status = "Waiting for letters..."
